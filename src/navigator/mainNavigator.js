@@ -5,6 +5,7 @@ import {createDrawerNavigator} from 'react-navigation-drawer';
 import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
+import CopyOfBlankScreen09718Navigator from '../features/CopyOfBlankScreen09718/navigator';
 
 /**
  * new navigators can be imported here
@@ -13,6 +14,7 @@ import SideMenu from './sideMenu';
 const AppNavigator = {
 
     //@BlueprintNavigationInsertion
+CopyOfBlankScreen09718: { screen: CopyOfBlankScreen09718Navigator },
 
     /** new navigators can be added here */
     SplashScreen: {
