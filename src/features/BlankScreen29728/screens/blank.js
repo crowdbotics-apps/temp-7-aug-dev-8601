@@ -106,7 +106,7 @@ export class _Blank extends React.Component {
           paddingTop: 5,
           paddingBottom: 5,
           overflow: "visible",
-          textAlign: "left",
+          textAlign: "center",
           verticalAlign: "baseline",
           fontSize: 12,
           color: "#000000",
@@ -131,7 +131,7 @@ export class _Blank extends React.Component {
       <Input
         placeholder="Sample text input placeholder"
         editable={true}
-        textStyle={{ fontSize: 12, color: "#000000", textAlign: "left" }}
+        textStyle={{ fontSize: 12, color: "#000000", textAlign: "center" }}
         style={{
           width: "100%",
           marginLeft: 0,
@@ -143,7 +143,7 @@ export class _Blank extends React.Component {
           paddingTop: 5,
           paddingBottom: 5,
           overflow: "visible",
-          textAlign: "left",
+          textAlign: "center",
           verticalAlign: "baseline",
           fontSize: 12,
           color: "#000000",
@@ -177,7 +177,7 @@ export class _Blank extends React.Component {
           paddingTop: 5,
           paddingBottom: 5,
           overflow: "visible",
-          textAlign: "left",
+          textAlign: "center",
           verticalAlign: "baseline",
           fontSize: 12,
           color: "#000000",
