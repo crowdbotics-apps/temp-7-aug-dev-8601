@@ -37,6 +37,13 @@ class HomePage(models.Model):
         blank=True,
         related_name="homepage_user2",
     )
+    asdfsdf = models.ForeignKey(
+        "home.CustomText",
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name="homepage_asdfsdf",
+    )
 
     @property
     def api(self):
